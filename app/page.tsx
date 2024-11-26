@@ -133,5 +133,16 @@ export default function Translator() {
       </Card>
     </div>
   )
+}// eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
+  translateText();
+}, []);
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+try {
+  // Your logic
+} catch (err) {
+  // Handle error
 }
+
 
